@@ -1,0 +1,105 @@
+.corpo {
+	width: 50%;
+	margin: auto;
+	border: 2px solid #006bb4;
+	margin-top: 6px;
+}
+
+fieldset {
+	width: 50%;
+	margin: auto;
+	border: 1px solid #006bb4;
+	margin-top: 6px;
+}
+
+body {
+	font-family: Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: blue;
+}
+
+label, input, .classe, #identificacao {
+	display: block;
+}
+
+input[type=text], input[type=email], input[type=password], select {
+	width: 300px;
+}
+
+input, select {
+	margin-top: 4px;
+	margin-bottom: 4px;
+	border: 2px solid #006bb4;
+	border-radius: 3px;
+}
+
+.larguraTexto {
+	height: 20px;
+}
+
+.bt {
+	border: 2px solid #006bb4;
+	background-color: white;
+	font-weight: bold;
+	color: #006bb4;
+	padding: 5px 10px;
+	border-radius: 5px;
+	float: right;
+	margin-right: 4px;
+}
+
+.bt:hover {
+	cursor: pointer;
+	background-color: #006bb4;
+	color: white;
+}
+
+#img-java {
+	float: right;
+	height: 75px;
+	width: 90px;
+}
+
+#tb {
+	width: 50%;
+	margin: auto;
+	margin-top: 6px;
+}
+
+#estilo-tb {
+	font-family: Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	color: black;
+	width: 100%;
+}
+
+#estilo-tb td, #estilo-tb th {
+	border: 1px solid #90d9f8;
+	padding: 8px;
+}
+
+#estilo-tb tr:nth-child(even) {
+	background-color: #90d9f8;
+}
+
+#estilo-tb tr:hover {
+	background-color: #90d9f8;
+	cursor: pointer;
+}
+
+#estilo-tb th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #006bb4;
+	color: white;
+}
+
+
+
+a {
+	text-decoration: none;
+	margin-top: 4px;
+	
+}
